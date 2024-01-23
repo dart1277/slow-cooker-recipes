@@ -34,7 +34,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706021472810</updated>
       <workItem from="1706021476126" duration="30000" />
-      <workItem from="1706021511212" duration="14811000" />
+      <workItem from="1706021511212" duration="15114000" />
     </task>
     <servers />
   </component>

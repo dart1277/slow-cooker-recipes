@@ -127,10 +127,15 @@ def html_list_items_to_str_list(html_elems):
 
 
 def process_ingredients():
-    pass
+    in_json_path = Path(__name__).parent / "out_json"
+    with (in_json_path / f"_all.json").open(mode="r") as f:
+        recipes = json.loads(f.read())
+        for recipe in recipes:
+            print(recipe)
+            break
 
 
 if __name__ == '__main__':
     # download_pages()
-    parse_pages()
+    # parse_pages()
     process_ingredients()
